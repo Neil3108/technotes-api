@@ -4,6 +4,9 @@ const allowedOrigins = [
     'https://technotes-vypq.onrender.com',
     'https://technotes-api.onrender.com/auth',
     'https://technotes-api-0j4d.onrender.com/',
+    'https://technotes-vypq.onrender.com/',
+    'https://technotes-vypq.onrender.com/login',
+    'https://technotes-api.onrender.com/auth',
     'https://technotes-vypq.onrender.com/'
 ]
 
