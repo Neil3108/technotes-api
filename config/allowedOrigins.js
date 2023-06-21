@@ -1,13 +1,13 @@
 const allowedOrigins = [
     'https://technotes.onrender.com',
-    'https://technotes-api.onrender.com',
-    'https://technotes-vypq.onrender.com',
-    'https://technotes-api.onrender.com/auth',
-    'https://technotes-api-0j4d.onrender.com/',
     'https://technotes-vypq.onrender.com/',
-    'https://technotes-vypq.onrender.com/login',
-    'https://technotes-api.onrender.com/auth',
-    'https://technotes-vypq.onrender.com/'
-]
+    'https://www.technotes-vypq.onrender.com/',
+    'http://technotes-vypq.onrender.com/',
+    'http://www.technotes-vypq.onrender.com/',
+    'https://technotes-vypq.onrender.com',
+    'https://www.technotes-vypq.onrender.com',
+    'http://technotes-vypq.onrender.com',
+    'http://www.technotes-vypq.onrender.com/',
+    ]
 
 module.exports = allowedOrigins
