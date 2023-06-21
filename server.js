@@ -19,7 +19,13 @@ app.use(cookieParser())
 
 app.use(logger)
 
-app.use(cors(corsOptions))
+app.use(cors({ origin: 'https://technotes-vypq.onrender.com/'}))
+
+app.use(cors({ origin: 'https://technotes-vypq.onrender.com'}))
+
+app.use(cors({ origin: 'https://www.technotes-vypq.onrender.com/'}))
+
+app.use(cors({ origin: 'https://www.technotes-vypq.onrender.com'}))
 
 app.use(express.json())
 
