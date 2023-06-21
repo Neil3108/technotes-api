@@ -6,7 +6,7 @@ const { logger, logEvents } = require('./middleware/logger')
 const errorHandler = require('./middleware/errorHandler')
 const cookieParser = require('cookie-parser')
 const cors = require('cors')
-const corsOptions = require('./config/corsOptions')
+//const corsOptions = require('./config/corsOptions')
 const connectDB = require('./config/dbConn')
 const mongoose = require('mongoose')
 const PORT = process.env.PORT || 3500
@@ -19,13 +19,7 @@ app.use(cookieParser())
 
 app.use(logger)
 
-app.use(cors({ origin: "https://technotes-vypq.onrender.com/"}))
-
-app.use(cors({ origin: "https://technotes-vypq.onrender.com"}))
-
-app.use(cors({ origin: "https://www.technotes-vypq.onrender.com/"}))
-
-app.use(cors({ origin: "https://www.technotes-vypq.onrender.com"}))
+app.use(cors({origin: "*"}))
 
 app.use(express.json())
 
