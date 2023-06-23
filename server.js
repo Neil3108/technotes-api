@@ -19,7 +19,7 @@ app.use(cookieParser())
 
 app.use(logger)
 
-console.log("Above Cors call")
+console.log("Above Cors Call")
 app.use(cors(corsOptions))
 
 app.use(express.json())
