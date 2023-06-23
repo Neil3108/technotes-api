@@ -1,7 +1,6 @@
 const mongoose = require('mongoose')
 const AutoIncrement = require('mongoose-sequence')(mongoose)
 
-console.log("Reached in Note.js")
 const noteSchema = new mongoose.Schema(
     {
         user: {
