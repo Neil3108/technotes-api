@@ -1,4 +1,3 @@
-console.log("Reached allowedOrigins")
 const allowedOrigins = [
     'https://technotes-vypq.onrender.com/',
     'https://www.technotes-vypq.onrender.com/',
